@@ -1,6 +1,5 @@
 # Introduction
-We in this work developed a direct multiscale topology optimization method for additive manufacturing (AM) of coated structures with nonperiodic infill 
-by employing an adaptive mapping technique of adaptive geometric components 
+We propose a new multiscale topology optimization approach for the direct and simultaneous design of lattice materials, without material homogenization at the microscale, using adaptive geometric components. The adaptive geometric components are projected onto macro- and micro-element density fields to calculate the effective densities of grid elements. Macro-and microstructures are simultaneously optimized, considering the load and boundary conditions of the overall structure without any additional constraints.
 Structure of AdapConTOPCoatedStructNonperiodicInfill package: 
 1. MainProgram: main program for running topology optimization problems. 
 2. Other functions are given in subfolders. 
@@ -11,16 +10,14 @@ Structure of AdapConTOPCoatedStructNonperiodicInfill package:
   - Call program for smoothing boundaries of final design to print out 3D prototypes
 
 # Contributors
-- Van-NamHoang
+- Van-Nam Hoang
 - Phuong Tran
-- Ngoc-Linh Nguyen
-- Klaus Hackl
+- Van-Tuyen Vu
 - Hung Nguyen-Xuan
 
 # Funding Agency
-[image](https://user-images.githubusercontent.com/21061585/185906406-86ec8b76-4db6-4fe1-a10d-0e7a076f0fb2.png)
+Vingroup Innovation Foundation (VINIF) in project code VINIF.2019.DA04
 
 # References
-Van-Nam Hoang, Phuong Tran, Ngoc-Linh Nguyen, Klaus Hackl, H. Nguyen-Xuan, Adaptive concurrent topology optimization of coated structures with nonperiodic infill for additive manufacturing, 
-Computer-Aided Design, 129, 102918, 2020 https://www.sciencedirect.com/science/article/pii/S0010448520301111
+Van-Nam Hoang, Phuong Tran, Van-Tuyen Vu, H. Nguyen-Xuan, Design of lattice structures with direct multiscale topology optimization, Composite Structures, 252, 112718, 2020 https://www.sciencedirect.com/science/article/pii/S0263822320326441
 
