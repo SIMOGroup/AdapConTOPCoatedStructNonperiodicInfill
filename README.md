@@ -2,13 +2,13 @@
 We in this work developed a direct multiscale topology optimization method for additive manufacturing (AM) of coated structures with nonperiodic infill 
 by employing an adaptive mapping technique of adaptive geometric components 
 Structure of AdapConTOPCoatedStructNonperiodicInfill package: 
-1. ??? : main program for running machine learning problems. 
+1. MainProgram: main program for running topology optimization problems. 
 2. Other functions are given in subfolders. 
 3. How to run AdapConTOPCoatedStructNonperiodicInfill 
   - Define a new problem following code structures 
-  - Run PCEn_....m 
-  - Use Paraview to show results in displacements and stresses. 
+  - Run MainProgram.m 
   - Get output
+  - Call program for smoothing boundaries of final design to print out 3D prototypes
 
 # Contributors
 - Van-NamHoang
@@ -16,6 +16,9 @@ Structure of AdapConTOPCoatedStructNonperiodicInfill package:
 - Ngoc-Linh Nguyen
 - Klaus Hackl
 - Hung Nguyen-Xuan
+
+# Funding Agency
+[image](https://user-images.githubusercontent.com/21061585/185906406-86ec8b76-4db6-4fe1-a10d-0e7a076f0fb2.png)
 
 # References
 Van-Nam Hoang, Phuong Tran, Ngoc-Linh Nguyen, Klaus Hackl, H. Nguyen-Xuan, Adaptive concurrent topology optimization of coated structures with nonperiodic infill for additive manufacturing, 
