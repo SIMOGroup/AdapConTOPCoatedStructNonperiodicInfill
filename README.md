@@ -1,5 +1,6 @@
 # Introduction
 We propose a new multiscale topology optimization approach for the direct and simultaneous design of lattice materials, without material homogenization at the microscale, using adaptive geometric components. The adaptive geometric components are projected onto macro- and micro-element density fields to calculate the effective densities of grid elements. Macro-and microstructures are simultaneously optimized, considering the load and boundary conditions of the overall structure without any additional constraints.
+
 Structure of AdapConTOPCoatedStructNonperiodicInfill package: 
 1. MainProgram: main program for running topology optimization problems. 
 2. Other functions are given in subfolders. 
