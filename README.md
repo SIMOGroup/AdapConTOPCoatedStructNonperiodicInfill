@@ -1,5 +1,5 @@
 # Introduction
-We propose a new multiscale topology optimization approach for the direct and simultaneous design of lattice materials, without material homogenization at the microscale, using adaptive geometric components. The adaptive geometric components are projected onto macro- and micro-element density fields to calculate the effective densities of grid elements. Macro-and microstructures are simultaneously optimized, considering the load and boundary conditions of the overall structure without any additional constraints. 3D prototypes can be made by 3D printed machine after smoothing technique is solved.  
+We developed an open source for a direct multiscale topology optimization method for additive manufacturing (AM) of coated structures with nonperiodic infill by employing an adaptive mapping technique of adaptive geometric components (AGCs). The AGCs consist of a framework of macro-sandwich bars that represent the macrostructure with the solid coating and a network of micro-solid bars that represent the nonperiodic infill at the microstructural scale. 3D prototypes can be made by 3D printed machine after smoothing technique is solved.  
 
 Structure of AdapConTOPCoatedStructNonperiodicInfill package: 
 1. MainProgram: main program for running topology optimization problems. 
@@ -13,12 +13,13 @@ Structure of AdapConTOPCoatedStructNonperiodicInfill package:
 # Contributors
 - Van-Nam Hoang
 - Phuong Tran
-- Van-Tuyen Vu
+- Ngoc-Linh Nguyen
+- Klaus Hackl
 - Hung Nguyen-Xuan
 
 # Funding Agency
-Vingroup Innovation Foundation (VINIF) in project code VINIF.2019.DA04
+Vietnam National Foundation for Science and Technology Development (NAFOSTED) under grant number 107.01-2019.317
 
 # References
-Van-Nam Hoang, Phuong Tran, Van-Tuyen Vu, H. Nguyen-Xuan, Design of lattice structures with direct multiscale topology optimization, Composite Structures, 252, 112718, 2020 https://www.sciencedirect.com/science/article/pii/S0263822320326441
+Van-Nam Hoang, Phuong Tran, Ngoc-Linh Nguyen, Klaus Hackl, H. Nguyen-Xuan, Adaptive concurrent topology optimization of coated structures with nonperiodic infill for additive manufacturing, Computer-Aided Design, 129, 102918, 2020 https://www.sciencedirect.com/science/article/pii/S0010448520301111
 
